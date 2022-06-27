@@ -30,6 +30,13 @@
                 id="pass"
                 placeholder="Password"
                 v-model="register_form.password">
+            <br><label for="password">Please confirm your password</label>
+            <br><input 
+                type="password" 
+                name="confirmpass" 
+                id="pass"
+                placeholder="Password"
+                v-model="register_form.confirmpassword">
             <br><input type="submit" value="register" class="btn-register">
         <div class="half">
         <p>Don't have a GB Synergy account? <router-link to="/login">Log In</router-link></p>
