@@ -3,10 +3,10 @@
         <div class="col-lg-4">
             <img class="logo-img" src="../assets/logo.jpeg" alt="">
             <ul class="menu">
-                <li class="menu-item"><a href="#"><i></i>Dashboard</a></li>
-                <li class="menu-item"><a href="#"><i></i>Explore</a></li>
-                <li class="menu-item"><a href="#"><i></i>My Collaborations</a></li>
-                <li class="menu-item"><a href="#"><i></i>Profile</a></li>
+                <li class="menu-item"><router-link to="/dashboard/">Dashboard</router-link></li>
+                <li class="menu-item"><router-link to="/dashboard/explore">Explore</router-link></li>
+                <li class="menu-item"><router-link to="/dashboard/collaboration">My Collaborations</router-link></li>
+                <li class="menu-item"><router-link to="/dashboard/profile">Profile</router-link></li>
             </ul>
         </div>
         <div class="col-lg-8">
@@ -21,7 +21,7 @@
             <div class="row">
                 <ul class="inside-menu">
                     <li class="m-item">Profile And Preferences</li>
-                    <li class="m-item">General Settings</li>
+                    <li class="m-item"><router-link to="/dashboard/settings">General Settings</router-link></li>
                 </ul>
             </div>
             <div class="row">
@@ -284,6 +284,9 @@ select{
     color: #474747;
     width: 270px;
     border: 1px solid lightblue
+}
+li.m-item a {
+    color: black;
 }
 .col-lg-8{
     width: 80%;

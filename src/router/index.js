@@ -32,8 +32,29 @@ const routes = [
     path: '/dashboard/profile',
     name: 'profile',
     component: () => import('../views/ProfileView.vue'),
+  },
+  {
+    path: '/dashboard/settings',
+    name: 'settings',
+    component: () => import('../views/SettingsView.vue'),
+  },
+  {
+    path: '/dashboard/explore',
+    name: 'explore',
+    component: () => import('../views/ExploreView.vue'),
+  },
+  {
+    path: '/dashboard/collaboration',
+    name: 'collaboration',
+    component: () => import('../views/CollaborationsView.vue'),
+  },
+  {
+    path: '/dashboard/',
+    name: 'dashboard',
+    component: () => import('../views/DashboardView.vue'),
   }
 ]
+
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
