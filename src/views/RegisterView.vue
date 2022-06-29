@@ -38,7 +38,7 @@
                 placeholder="Password"
                 v-model="register_form.confirmpassword">
             <br><input type="submit" value="register" class="btn-register">
-        <div class="half">
+            <div class="half">
         <p>Don't have a GB Synergy account? <router-link to="/login">Log In</router-link></p>
     </div>
         </form>
@@ -77,22 +77,20 @@ nav{
     background-image: url('../assets/back.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 110vh;
-    width: 60%;
+    height: 125vh;
+    width: 50%;
     float: left;
     padding: 0px;
     margin: 0px;
-    margin-left: -10px;
-    margin-top: -10px;
 }
-.forms-box .form-part{
+.register-form{
     background: white;
-    height: 100vh;
-    width: 40%;
+    height: 125vh;
+    width: 50%;
     float: left;
-    border-bottom-left-radius: 60px;
-    border-top-left-radius: 60px;
     margin-left: -60px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
 }
 .logo-img{
     width: 300px;
@@ -162,9 +160,5 @@ select{
     margin-top: 5px;
     padding-left: 0px;
 }
-.half{
-    width: 40%;
-    float: right;
-    text-align: center;
-}
+
 </style>

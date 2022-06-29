@@ -20,7 +20,7 @@
                     id="pass"
                     v-model="login_form.password"
                     placeholder="Password"><br>
-                <input type="submit" value="Login" class="btn-login">
+                <button class="btn-login"><router-link to="/dashboard/profile">Login</router-link></button>
             </form>
             <div>
         <p>Don't have a GB Synergy account? <router-link to="/register">Sign Up</router-link></p>
@@ -110,5 +110,86 @@ input#pass{
     color: white;
     border: none;
     border-radius: 15px;
+}
+nav{
+    display: none;
+}
+.forms-box{
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+}
+.logo-img{
+    width: 300px;
+}
+h2 a{
+    color: skyblue;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+input#email{
+    margin-bottom: 15px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    font-size: 18px;
+}
+input#business{
+    margin-bottom: 15px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    font-size: 18px;
+}
+select#country{
+    margin-bottom: 15px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    font-size: 18px;
+}
+input#name{
+    margin-bottom: 15px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    font-size: 18px;
+}
+input#pass{
+    margin-bottom: 15px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    font-size: 18px;
+}
+.btn-register{
+    padding: 10px 100px;
+    font-size: 18px;
+    background: skyblue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+label{
+    width: 100%;
+    text-align: left;
+}
+input{
+    margin-top: 10px;
+    padding-left: 0px;
+}
+select{
+    margin-top: 5px;
+    padding-left: 0px;
+}
+.half{
+    width: 40%;
+    float: right;
+    text-align: center;
 }
 </style>
