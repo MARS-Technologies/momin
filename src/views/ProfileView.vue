@@ -20,7 +20,7 @@
             </div>
             <div class="row">
                 <ul class="inside-menu">
-                    <li class="m-item">Profile And Preferences</li>
+                    <li class="m-item"><b>Profile And Preferences</b></li>
                     <li class="m-item"><router-link to="/dashboard/settings">General Settings</router-link></li>
                 </ul>
             </div>
@@ -330,7 +330,7 @@ li.m-item a {
 .logo-img{
     width: 200px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: -100px;
     position: fixed;
 }
 ul.menu{

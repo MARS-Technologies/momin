@@ -1,7 +1,7 @@
 <template>
     <main class="profile">
         <div class="col-lg-4">
-            <img class="logo-img" src="../assets/logo.jpeg" alt="">
+            <img class="logo-img" src="../assets/synergy-logo.png" alt="">
             <ul class="menu">
                 <li class="menu-item"><router-link to="/dashboard/">PDF</router-link></li>
                 <li class="menu-item"><img src="../assets/explore.png" alt=""><router-link style="padding-left: 20px;" to="/dashboard/explore">Explore</router-link></li>
@@ -95,7 +95,7 @@ li.m-item a {
 .logo-img{
     width: 200px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: -100px;
     position: fixed;
 }
 ul.menu{
