@@ -1,12 +1,12 @@
 <template>
     <main class="profile">
         <div class="col-lg-4">
-            <img class="logo-img" src="../assets/synergy-png.png" alt="">
+            <img class="logo-img" src="../assets/logo.jpeg" alt="">
             <ul class="menu">
                 <li class="menu-item"><router-link to="/dashboard/">PDF</router-link></li>
                 <li class="menu-item"><router-link to="/dashboard/explore">Explore</router-link></li>
                 <li class="menu-item"><router-link to="/dashboard/collaboration">My Collaborations</router-link></li>
-                <li class="menu-item"><router-link to="/dashboard/profile">Profile</router-link></li>
+                <li class="menu-item checked"><router-link to="/dashboard/profile">Profile</router-link></li>
             </ul>
         </div>
         <div class="col-lg-8">
@@ -30,32 +30,32 @@
                 </p>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Company Name</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <input type="text" placeholder="Company Name">
                 </div>
-                <div class="col-sm-4" style="height: 100px;">
+                <div class="col-sm-4" style="height: 120px;">
                     <p>Company Intro</p>
                 </div>
-                <div class="col-sm-8" style="height: 100px;">
+                <div class="col-sm-8" style="height: 120px;">
                     <textarea name="" id="" cols="30" rows="10"></textarea>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Website URL</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <input type="text" placeholder="www.examplecompany.com">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Country of Operation</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <select name="country" id="">
                         <option value="hongkong">Hong Kong</option>
                         <option value="pakistan">Pakistan</option>
@@ -63,21 +63,22 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 100px;">
+                <div class="col-sm-4" style="height: 150px;">
                     <p>Business Category</p>
                 </div>
-                <div class="col-sm-8" style="height: 100px;">
-                    <input type="radio" name="retail" id=""><label>Retail</label><br>
-                    <input type="radio" name="Events & Classes" id=""><label>Events & Classes</label><br>
-                    <input type="radio" name="Services" id=""><label>Services</label><br>
-                    <input type="radio" name="Other" id=""><label>Other</label><br>
+                <div class="col-sm-8" style="height: 150px;">
+                    <input type="radio" name="business" id=""><label>Retail</label><br>
+                    <input type="radio" name="business" id=""><label>Events & Classes</label><br>
+                    <input type="radio" name="business" id=""><label>Services</label><br>
+                    <input type="radio" name="business" id=""><label>Other</label><br>
+                    <input type="text">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Industy</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <select name="industry" id="">
                         <option value="fitness">Fitness</option>
                         <option value="it">IT</option>
@@ -85,10 +86,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Customer Size</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <select name="industry" id="">
                         <option value="1000+">1000+</option>
                         <option value="1m">1M+</option>
@@ -96,10 +97,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Business and Customers Demographic</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <select name="industry" id="">
                         <option value="hongkongsar">Hong Kong SAR</option>
                         <option value="MainlandChina">Mainland China</option>
@@ -110,18 +111,18 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 120px;">
                     <p>Collaboration Vision</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 120px;">
                     <textarea name="" id="" cols="30" rows="10"></textarea>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Year of establishment</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <select name="industry" id="">
                         <option value="0-1">0 - 1</option>
                         <option value="1-3">1 - 3</option>
@@ -132,60 +133,75 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 200px;">
                     <p>Type of products</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
-                    <select name="industry" id="">
-                        <option value="food">Food</option>
-                        <option value="sport-fitness">Sports & fitness</option>
-                        <option value="electronics">Electronics</option>
-                        <option value="drinks">Drinks</option>
-                        <option value="Jewellery">Jewellery</option>
-                    </select>
+                <div class="col-sm-8" style="height: 200px;">
+                    <select name="industry" id="" disabled>
+                        <option value="food">
+                            Food
+                        </option>
+                    </select><br>
+                    <div class="sec">
+                    <input type="checkbox" name="Sports" id=""><label>Food</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Sports & fitness</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Electronics</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Drinks</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Jewellery</label><br>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 200px;">
                     <p>Type of Events</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
-                    <select name="industry" id="">
-                        <option value="food">Food</option>
-                        <option value="sport-fitness">Sports & fitness</option>
-                        <option value="electronics">Electronics</option>
-                        <option value="drinks">Drinks</option>
-                        <option value="Jewellery">Jewellery</option>
-                    </select>
+                <div class="col-sm-8" style="height: 200px;">
+                    <select name="industry" disabled id="">
+                        <option value="food">
+                            Food
+                        </option>
+                    </select><br>
+                    <div class="sec">
+                    <input type="checkbox" name="Sports" id=""><label>Food</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Sports & fitness</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Electronics</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Drinks</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Jewellery</label><br>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 200px;">
                     <p>Type of Services</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
-                    <select name="industry" id="">
-                        <option value="food">Food</option>
-                        <option value="sport-fitness">Sports & fitness</option>
-                        <option value="electronics">Electronics</option>
-                        <option value="drinks">Drinks</option>
-                        <option value="Jewellery">Jewellery</option>
-                    </select>
+                <div class="col-sm-8" style="height: 200px;">
+                    <select name="industry" disabled id="">
+                        <option value="food">
+                            Food
+                        </option>
+                    </select><br>
+                    <div class="sec">
+                    <input type="checkbox" name="Sports" id=""><label>Food</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Sports & fitness</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Electronics</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Drinks</label><br>
+                    <input type="checkbox" name="Sports" id=""><label>Jewellery</label><br>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Facebook</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <input type="text">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Instagram</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <input type="text">
                 </div>
             </div>
@@ -193,10 +209,10 @@
                 <p class="header">Partnership Preference</p>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Commission / referral range (no decimals)</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <input type="text" class="half-input"> % to <input type="text" class="half-input">
                 </div>
             </div>
@@ -205,12 +221,12 @@
                     <p>Type of Partnership</p>
                 </div>
                 <div class="col-sm-8" style="height: 150px;">
-                    <input type="radio" name="joint" id=""><label>Joint Content Marketing</label><br>
-                    <input type="radio" name="Events & Classes" id=""><label>Joint social media marketing</label><br>
-                    <input type="radio" name="Services" id=""><label>Joint seminars</label><br>
-                    <input type="radio" name="Other" id=""><label>Product and services bundles</label><br>
-                    <input type="radio" name="Other" id=""><label>Product and product bundles</label><br>
-                    <input type="radio" name="Other" id=""><label>Product and event bundles</label><br>
+                    <input type="radio" name="partner" id=""><label>Joint Content Marketing</label><br>
+                    <input type="radio" name="partner" id=""><label>Joint social media marketing</label><br>
+                    <input type="radio" name="partner" id=""><label>Joint seminars</label><br>
+                    <input type="radio" name="partner" id=""><label>Product and services bundles</label><br>
+                    <input type="radio" name="partner" id=""><label>Product and product bundles</label><br>
+                    <input type="radio" name="partner" id=""><label>Product and event bundles</label><br>
                 </div>
             </div>
             <div class="row">
@@ -218,20 +234,20 @@
                     <p>Preferred Business Partners</p>
                 </div>
                 <div class="col-sm-8" style="height: 150px;">
-                    <input type="radio" name="retail" id=""><label>Retail</label><br>
-                    <input type="radio" name="Events & Classes" id=""><label>Events & Classes</label><br>
-                    <input type="radio" name="Services" id=""><label>Services</label><br>
-                    <input type="radio" name="Other" id=""><label>Other</label><br>
+                    <input type="radio" name="business-p" id=""><label>Retail</label><br>
+                    <input type="radio" name="business-p" id=""><label>Events & Classes</label><br>
+                    <input type="radio" name="business-p" id=""><label>Services</label><br>
+                    <input type="radio" name="business-p" id=""><label>Other</label><br>
                     <input type="text">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4" style="height: 50px;">
+                <div class="col-sm-4" style="height: 70px;">
                     <p>Preferred Business Partners</p>
                 </div>
-                <div class="col-sm-8" style="height: 50px;">
+                <div class="col-sm-8" style="height: 70px;">
                     <input type="radio" name="retail" id=""><label>Within country of operations</label><br>
-                    <input type="radio" name="Events & Classes" id=""><label>Outside country of operaitons</label><br>
+                    <input type="radio" name="retail" id=""><label>Outside country of operaitons</label><br>
                 </div>
             </div>
             <div class="row" style="text-align: left;">
@@ -250,11 +266,19 @@ nav{
 .col-lg-4{
     width: 20%;
     background: #324158;
-    height: 200vh;
+    height: 360vh;
     float: left;
 }
-.col-lg-4:hover{
-    background-color: #05C4C4;
+li.menu-item a:hover{
+    color: #05C4C4;
+}
+li.checked a{
+    color: #05C4C4;
+}
+.sec {
+    width: 248px;
+    border: 1px solid #05C4C4;
+    padding: 10px;
 }
 .col-sm-4{
     width: 40%;
