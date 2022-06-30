@@ -1,12 +1,12 @@
 <template>
     <main class="profile" id="App">
         <div class="col-lg-4">
-            <img class="logo-img" src="../assets/logo.jpeg" alt="">
+            <img class="logo-img" src="../assets/synergy-logo.png" alt="">
             <ul class="menu">
                 <li class="menu-item"><router-link to="/dashboard/">PDF</router-link></li>
-                <li class="menu-item"><router-link to="/dashboard/explore">Explore</router-link></li>
-                <li class="menu-item"><router-link to="/dashboard/collaboration">My Collaborations</router-link></li>
-                <li class="menu-item checked"><router-link to="/dashboard/profile">Profile</router-link></li>
+                <li class="menu-item"><img src="../assets/explore.png" alt=""><router-link style="padding-left: 20px;" to="/dashboard/explore">Explore</router-link></li>
+                <li class="menu-item"><img src="../assets/collaboration.png" alt=""><router-link to="/dashboard/collaboration">My Collaborations</router-link></li>
+                <li class="menu-item checked"><img src="../assets/profile.png" alt=""><router-link style="padding-left: 20px;" to="/dashboard/profile">Profile</router-link></li>
             </ul>
         </div>
         <div class="col-lg-8">
@@ -381,5 +381,10 @@ button{
     border: none;
     padding: 10px;
     text-align: left;
+}
+li.menu-item img {
+    height: 25px;
+    padding-right: 10px;
+    margin-bottom: -6px;
 }
 </style>
