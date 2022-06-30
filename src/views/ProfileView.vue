@@ -1,5 +1,5 @@
 <template>
-    <main class="profile">
+    <main class="profile" id="App">
         <div class="col-lg-4">
             <img class="logo-img" src="../assets/logo.jpeg" alt="">
             <ul class="menu">

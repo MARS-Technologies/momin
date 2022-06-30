@@ -29,27 +29,27 @@ const routes = [
     }
   },
   {
-    path: '/dashboard/profile',
+    path: '/profile',
     name: 'profile',
     component: () => import('../views/ProfileView.vue'),
   },
   {
-    path: '/dashboard/settings',
+    path: '/settings',
     name: 'settings',
     component: () => import('../views/SettingsView.vue'),
   },
   {
-    path: '/dashboard/explore',
+    path: '/explore',
     name: 'explore',
     component: () => import('../views/ExploreView.vue'),
   },
   {
-    path: '/dashboard/collaboration',
+    path: '/collaboration',
     name: 'collaboration',
     component: () => import('../views/CollaborationsView.vue'),
   },
   {
-    path: '/dashboard/',
+    path: '/pdf/',
     name: 'dashboard',
     component: () => import('../views/DashboardView.vue'),
   }
